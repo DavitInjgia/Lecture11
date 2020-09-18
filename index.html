@@ -4,38 +4,46 @@
 	<title>Lesson 11</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" typ e="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/fonts.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
 <body>
 	<header>
-		<div class="head_class">
-
-			<img class="img_class" src="img/Logo_black.svg" alt="logo">
-			<nav class="navigation">
-				<ul class="nav_ul">
-					<li class="nav_li">
-						<a class="nav_a" href="#">პროექტის შესახებ</a>
-					</li>
-					<li class="nav_li">
-						<a class="nav_a" href="#">მოთხოვნები</a>
-					</li>
-					<li class="nav_li">
-						<a class="nav_a" href="#">EXPLORE</a>
-					</li>
-					<li class="nav_li">
-						<a class="nav_a" href="#">შესვლა</a>
-					</li>
-					<li class="nav_li">
-						<img src="img/search.svg" alt="search">
-					</li>
-				</ul>
-			</nav>
-		</div>
+		<nav class="navigation">
+			<div>
+				<img class="html_logo" src="img/Logo_black.svg" alt="logo">
+			</div>
+			<input type="checkbox" id = "check" name="box">
+			<label for="check" class="btn">
+				<i class="fas fa-bars"></i>
+			</label>
+			<ul class="nav_ul">
+				<li class="nav_li">
+					<a class="nav_a" href="#">პროექტის შესახებ</a>
+				</li>
+				<li class="nav_li">
+					<a class="nav_a" href="#">მოთხოვნები</a>
+				</li>
+				<li class="nav_li">
+					<a class="nav_a" href="#">EXPLORE</a>
+				</li>
+				<li class="nav_li">
+					<a class="nav_a" href="#">შესვლა</a>
+				</li>
+				<li class="nav_li">
+					<img src="img/search.svg" alt="search">
+				</li>	
+			</ul>
+		</nav>	
 	</header>
-	<img src="img/map.png" alt="map" class="img_class">
+	<img class="map" src="img/map.png" alt="map">
 	<section class="sec2">
+		<div class="container">
+			
+		</div>
 		<form class="form-wraper">
 			<div class="forms">
 				<label for="name">Name</label>
@@ -58,30 +66,6 @@
 				<button class="btn" type="submit">Send </button>
 			</div>
 		</form>
-	</section>
-	<section class="sec3">
-		<div class="sec3_div">
-			<div class="sec3_image">
-				<img src="img/Logo_white.svg" alt="html logo">
-			</div>
-			<div class="contact">
-				<h3>კონტაქტი</h3>
-				<p>+995 0322 38 08 02</p>
-				<p>info@lucapolare.com</p>
-			</div>
-			<div class="address">
-				<h3>მისამართი</h3>
-				<p>მერაბ ალექსიძის ქუჩა 10. თბილისი</p>
-			</div>
-			<div class="social">
-				<div>
-					<img src="img/facebook.svg" alt="facebook">
-				</div>
-				<div>
-					<img src="img/instagram.svg" alt="instagram">
-				</div>
-			</div>
-		</div>
 	</section>
 </body>
 </html>
